@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Password Generator</title>
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
+    <body>
+        <main>
+            <div class="container">
+                <div class="son">
+                    <form class="form-password" id="form-password">
+                        <label for="char" id="n-char" class="n-char"
+                            >Ingrese el número de caracteres para la
+                            contraseña</label
+                        >
+                        <input
+                            type="text"
+                            name="char"
+                            id="char"
+                            placeholder="Número de caracteres"
+                        />
+                        <button
+                            class="btn-aceptar"
+                            id="btn-aceptar"
+                            type="submit"
+                        >
+                            Aceptar
+                        </button>
+                    </form>
+                    <p id="passwordGenerada">-</p>
+                    <!-- Dejarlo como un p el de arriba o cambiarlo a lbl como antes que si funcionaba al 100% (solo en caso de no poder acomodar el p de la manera que quiero) y meter el lbl en el form -->
+                </div>
+            </div>
+        </main>
+
+        <script src="app.js"></script>
+    </body>
+</html>
